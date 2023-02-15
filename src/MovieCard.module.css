@@ -1,6 +1,7 @@
 .movieCard{
     list-style:none;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .movieImage {
@@ -8,3 +9,9 @@
     background-color: azure;
 }
 
+@media (max-width: 570px) {
+    .moviesImage{
+        width: 90%;
+        height: auto;
+    }
+}
